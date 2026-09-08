@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Magic</title>
+</head>
+
+<body class="claro">
+    <header id="header">
+        <h1>Magic: The Gathering</h1>
+        <img src="mtg.png" alt="magic_img" width="550" height="350">
+        <button type="submit" id="tema">Tema</button>
+        <nav id="links">
+            <a href="#header">Início</a>
+            <a href="#colors">Cores</a>
+            <a href="#commanders">Comandantes</a>
+            <a href="#match">Partida</a>
+            <a href="#footer">Contatos</a>
+        </nav>
+        <p>Cliques nos atalhos: </p>
+        <p id="numero">0</p>
+    </header>
+    <main>
+        <section id="colors" class="topics">
+            <h2>Cores:</h2>
+            <ul>
+                <li>Branco</li>
+                <li>Azul</li>
+                <li>Preto</li>
+                <li>Vermelho</li>
+                <li>Verde</li>
+            </ul>
+        </section>
+        <section id="commanders" class="topics">
+            <h2>Comandantes:</h2>
+            <table id="table">
+                <tr>
+                    <th>Cores</th>
+                    <th>Comandantes</th>
+                    <th colspan="2">Cores Aliadas</th>
+                </tr>
+                <tr>
+                    <td>Branco</td>
+                    <td>Giada, Fonte de Esperança</td>
+                    <td>Azul</td>
+                    <td>Verde</td>
+                </tr>
+                <tr>
+                    <td>Azul</td>
+                    <td>Urza, Lord High Artificer</td>
+                    <td>Preto</td>
+                    <td>Branco</td>
+                </tr>
+                <tr>
+                    <td>Preto</td>
+                    <td>Sephiroth, Fabled SOLDIER</td>
+                    <td>Azul</td>
+                    <td>Vermelho</td>
+                </tr>
+                <tr>
+                    <td>Vermelho</td>
+                    <td>Krenko, Chefe do Mob</td>
+                    <td>Preto</td>
+                    <td>Verde</td>
+                </tr>
+                <tr>
+                    <td>Verde</td>
+                    <td>Fynn, o Portador da Presa</td>
+                    <td>Branco</td>
+                    <td>Vermelho</td>
+                </tr>
+            </table>
+        </section>
+        <section id="match" class="topics">
+            <h2>Partida:</h2>
+            <p>
+                Em uma partida de Magic Commander 500, quatro jogadores se enfrentam
+                em uma mesa redonda, onde cada um começa o jogo com 40 pontos de vida.
+                O objetivo principal é eliminar os oponentes reduzindo a vida deles
+                a zero, ou acumulando 21 pontos de dano de combate causados por um único
+                Comandante inimigo ao longo do jogo, o que gera derrota imediata.
+                Cada jogador utiliza um deck de exatamente 100 cartas, composto por
+                uma criatura lendária na Zona de Comando e outras 99 cartas embaralhadas
+                no grimório. O formato adota a regra Singleton, ou seja, com exceção
+                dos terrenos básicos, o deck não pode conter nenhuma carta repetida,
+                e todas elas devem respeitar estritamente a identidade de cor do
+                Comandante escolhido.
+            </p>
+            <p>
+                A grande particularidade do Commander 500 está no bolso: o valor de
+                mercado das 99 cartas do deck somadas não pode ultrapassar o teto de
+                R$ 500,00, com base nas cotações de plataformas como a LigaMagic,
+                sendo que o preço do próprio Comandante costuma ficar de fora desse
+                cálculo. Durante a partida, a dinâmica de turnos segue o padrão do
+                Magic tradicional, permitindo que cada jogador baixe um terreno por
+                turno para gerar mana e ditar o ritmo de suas jogadas. O Comandante
+                fica visível e disponível para ser conjurado da Zona de Comando a
+                qualquer momento apropriado; contudo, sempre que ele morre, é exilado
+                ou removido de campo, o dono pode escolher devolvê-lo para a Zona de
+                Comando, aplicando uma taxa adicional de duas manas genéricas para cada
+                reconjuração subsequente.
+            </p>
+        </section>
+        <form>
+            <label for="deck">Deck:</label>
+            <input type="text" placeholder="Digite seu deck" id="campo">
+
+            <button type="submit" id="botao">Enviar</button>
+        </form>
+    </main>
+    <footer id="footer">
+        <p>Contatos:</p>
+        <ul>
+            <li>Bernardo Brasileiro Diniz</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/bernardo-brasileiro-diniz-8174203b0/">LinkedIn</a></li>
+            <li>GitHub: <a href="https://github.com/bernardobrasileiro">GitHub</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
