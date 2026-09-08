@@ -1,4 +1,4 @@
-# Tema_Livre - Aula 2 de Desenvolvimento de Scripts para Web
+# Tema_Livre - Aula 2 de Linguagens de Script para a Web
 
 Website simples de tema livre, com a utilização de HTML, CSS e noções iniciais de JavaScript.
 
