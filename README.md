@@ -1,6 +1,7 @@
 # Tema_Livre - Aula 2 de Desenvolvimento de Scripts para Web
 
 Website simples de tema livre, com a utilização de HTML, CSS e noções iniciais de JavaScript.
+
 Tema escolhido: Magic: The Gathering.
 
 ## 📬 Contato
